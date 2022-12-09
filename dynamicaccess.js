@@ -1,5 +1,5 @@
 function testBracketsDynamicAccess() {
-    var dynamicKey = Math.random() > 0.5 ? "speed" : "color";
+    var dynamicKey = Math.random() > 0.5 ? "speed" : "color"; //Conditional Statement
   
     console.log(dynamicKey);
       var drone = {
