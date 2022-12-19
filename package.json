@@ -1,0 +1,20 @@
+{
+  "name": "javascript-bootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DOM-manipulation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aashish079/JavaScript-Bootcamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aashish079/JavaScript-Bootcamp/issues"
+  },
+  "homepage": "https://github.com/Aashish079/JavaScript-Bootcamp#readme"
+}
