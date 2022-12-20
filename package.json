@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Aashish079/JavaScript-Bootcamp/issues"
   },
-  "homepage": "https://github.com/Aashish079/JavaScript-Bootcamp#readme"
+  "homepage": "https://github.com/Aashish079/JavaScript-Bootcamp#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
 }
