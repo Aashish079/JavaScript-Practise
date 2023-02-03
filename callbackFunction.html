@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body style="text-align: right">
+
+<h1>JavaScript Functions</h1>
+<h2>Callback Functions</h2>
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+
+function posNum(arr, callback){
+
+const newarr = [];
+
+for (const x of arr)
+if(callback(x)){
+newarr.push(x)
+}
+
+return newarr;
+}
+
+//Array 
+const myNumbers = [-6,7,8,2,-4,-5];
+const posNumbers = posNum(myNumbers, (x)=> x>=0);
+const message1 = ` All numbers: ${myNumbers} `;
+const message2 = ` Only positive numbers: ${posNumbers} `;
+document.getElementById("demo1").innerHTML = message1 ;
+document.getElementById("demo2").innerHTML = message2 ;
+
+
+
+</script>
+
+</body>
+</html>
