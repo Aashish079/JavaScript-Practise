@@ -13,9 +13,10 @@ function posNum(arr, callback){
 
 const newarr = [];
 
-for (const x of arr)
+for (const x of arr){
 if(callback(x)){
 newarr.push(x)
+}
 }
 
 return newarr;
