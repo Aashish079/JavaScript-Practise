@@ -1,4 +1,4 @@
-// Generate and array of numbers when the range is given
+// Generate an array of numbers when the range is given
 
 const numbers = arrayFromRange(-10, -4);
 
